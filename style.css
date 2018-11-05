@@ -39,11 +39,9 @@ html, body {
     padding: 0.2em 0;
 }
 @font-face {
-    font-family: "OswaldStencil-Bold";
-    src: url("fonts/Oswald-Stencil.eot?") format("eot"),
-    url("fonts/Oswald-Stencil.woff") format("woff"),
-    url("fonts/Oswald-Stencil.ttf") format("truetype"),
-    url("fonts/Oswald-Stencil.svg#OswaldStencil-Bold") format("svg");
+    font-family: 'oswald_stencilregular';
+    src: url('fonts/oswald-stencil-webfont.woff2') format('woff2'),
+        url('fonts/oswald-stencil-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -63,7 +61,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
     margin:0;
-    font-family: "OswaldStencil-Bold";
+    font-family: "oswald_stencilregular";
 }
 a:focus, select:focus, button:focus {
     outline:0 solid;
@@ -316,19 +314,24 @@ header {
 
 /* Subscribe Area Start */
 .subscribe-area {
-    background: #d32027;
-    opacity: 0.9;
+    background: rgba(211, 32, 39, .9);
+    padding-bottom: 50px;
+    position: relative;
+    top: -305px;
+    z-index: 9;
 }
 
 .subscribe-content h3 {
     font-size: 50px;
     color: #fff;
     text-transform: uppercase;
+    padding-bottom: 14px;
 }
 
 .subscribe-content p {
     font-size: 23px;
     color: #fff;
+    padding-bottom: 47px;
 }
 
 .subscribe-form form input {
