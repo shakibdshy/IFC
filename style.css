@@ -1,0 +1,619 @@
+/*----------------------------------------------------------------------------------
+	
+	Template Name: iFindCheaters
+	Descriptions: This is html5 template
+	Author: Jalish Mahmud
+	Version: 1.0
+
+----------------------------------------------------------------------------------*/
+
+/*--------------------------------------*/
+/*	.	Template Default CSS
+/*--------------------------------------*/
+html, body {
+    height:100%
+}
+.floatleft {
+    float:left
+}
+.floatright {
+    float:right
+}
+.alignleft {
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+.alignright {
+    float:right;
+    margin-left:15px;
+    margin-bottom:15px;
+}
+.aligncenter {
+    margin:0 auto 15px
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+@font-face {
+    font-family: "OswaldStencil-Bold";
+    src: url("fonts/Oswald-Stencil.eot?") format("eot"), url("fonts/Oswald-Stencil.woff") format("woff"), url("fonts/Oswald-Stencil.ttf") format("truetype"), url("Oswald-Stencil.svg#OswaldStencil-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+img {
+    max-width:100%;
+    height:auto
+}
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    font-family: "OswaldStencil-Bold";
+}
+a:focus, select:focus, button:focus {
+    outline:0 solid;
+    text-decoration:none;
+    color: inherit;
+}
+a, button, .funnel-box button, .single-service-wrapper {
+    transition: all 0.3s ease 0s;
+    text-decoration:none;
+    color: #000;
+}
+a:hover {
+	color:#d32027;
+	text-decoration:none
+}
+a:active, a:hover {
+    outline:0 none
+}
+ul {
+	list-style:outside none none;
+	margin:0;
+	padding:0
+}
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff url('img/selectArrow.png') no-repeat 92% 50%;
+}
+select option {
+    padding: 5px 10px;
+}
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+    position: absolute;
+    left: 5px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: 3px;
+    width: 17px;
+    height: 17px;
+    border: 2px solid #d32027;
+    background: #f4f2f3;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+    content: '✔';
+    position: absolute;
+    top: .1em; left: .3em;
+    font-size: 1.3em;
+    line-height: 0.8;
+    color: #09ad7e;
+    transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+[type="checkbox"]:not(:checked) + label:after, [type="checkbox"]:checked + label:after{
+    top: 8px;
+    left: 5px;
+    font-size: 12px;
+    color: #d32027;
+}
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked{
+    left: 16px;
+}
+.chec-box label.lab_el {
+    display: inline-block;
+    max-width: 480px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.chec-box label.lab_el a {
+    color: #d32027;
+    text-decoration: underline;
+}
+.chec-box input[type="checkbox"] {
+    display: none;
+}
+.clear {
+    clear:both
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+}
+p {
+    margin: 0;
+}
+.ptb-20 {
+    padding: 20px 0;
+} 
+.ptb-50 {
+    padding: 50px 0;
+} 
+.pt-50 {
+    padding: 50px 0 0;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.section-title h2 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-family: oswald_stencilregular;
+    -webkit-font-family: oswald_stencilregular;
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+.section-title h3 {
+    text-align: center;
+    display:block;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: none;
+    font-weight: 400;
+}
+
+/*-----------------------------------*/
+/*  .  Header
+/*-----------------------------------*/
+
+header {
+    padding:15px 0;
+    background-color: #fff;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+.logo { text-align: center; }
+.main-menu {
+    margin:18px 0;
+}
+.main-menu ul li, .user-button ul li {
+    display: inline-block;
+}
+.main-menu ul li a, .user-button ul li a {
+    font-family: oswald_stencilregular;
+    -webkit-font-family: oswald_stencilregular;
+    letter-spacing: 0;
+    display: block;
+    padding: 5px 10px;
+
+}
+.main-menu ul li a:hover, .main-menu ul li.active a {
+    background: #d32027;
+    color: #fff;
+}
+
+
+.menu-responsive {
+    text-align: center;
+}
+.menu-responsive .open {
+    font-size: 27px;
+    color:#d32027;
+    cursor:pointer
+}
+.menu-responsive, .menu-responsive .closed {
+    display:none
+}
+.menu-responsive ul {
+    padding-top: 15px;
+}
+.menu-responsive ul li a {
+    font-family: oswald_stencilregular;
+    -webkit-font-family: oswald_stencilregular;
+    display: block;
+    padding: 5px 10px;
+}
+.menu-responsive {
+	position: absolute;
+	top: 34px;
+	right: 0;
+	left: 240px;
+}
+.menu-responsive ul {
+	background-color: #fff;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	padding: 0 3% 10px;
+	text-align: right;
+	z-index: 2;
+	opacity: 1;
+	min-width: 200px;
+}
+
+.user-button {
+    margin:17px 0;
+}
+.user-button ul li {
+    margin-left:6px;
+}
+.user-button ul li a {
+    font-size:14px;
+    padding:4px 15px;
+}
+.user-button ul li a.log-in {
+  border: 1px solid #d32027;
+}
+.user-button ul li a.log-in:hover {
+    border: 1px solid #d32027;
+    color: #fff;
+    background: #d32027;
+}
+.user-button ul li a.sign-up {
+    background: #d32027;
+    border: 1px solid #d32027;
+    color: #fff;
+}
+.user-button ul li a.sign-up:hover {
+  background-color: transparent;
+  border: 1px solid #d32027;
+  color: #000;
+}
+.user-button.text-right {
+    text-align: center;
+}
+
+
+
+.single-pricing-button {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+}
+.single-pricing-button select {
+    background-color: #f6f6f6;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.single-pricing-button select option {
+    border: 0;
+    padding: 2px 12px;
+}
+.single-pricing-button button {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+.single-pricing-button button:hover {
+    background: #d32027;
+    border: 1px solid #d32027;
+}
+
+.plans-pricing-bonus {
+    margin-top: 28px;
+}
+.red-box-wrapper {
+    background-color: #d32027;
+    border-bottom: 12px solid #d32027;
+    border-radius: 5px;
+    min-height: 400px;
+    position: relative;
+}
+.red-box-title h2 {
+    color: #fff;
+    font-family: oswald_stencilregular;
+    -webkit-font-family: oswald_stencilregular;
+    font-size: 30px;
+    padding: 16px 15px;
+}
+.red-box {
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 15px 5px;
+    position: absolute;
+    left: 0;
+    top: 65px;
+}
+.red-box p {
+    margin-bottom: 10px;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+footer .footer-top {
+    padding:30px 0;
+}
+.social ul {text-align: center;}
+.social ul li {display: inline-block;}
+.social ul li a {padding: 0 10px; display: block;}
+.social ul li a:hover {color: transparent;}
+.social ul li a .fa {font-size: 40px; width: 45px; height: 45px;}
+.social ul li a:hover .fa.fa-facebook {color: #3b5999;}
+.social ul li a:hover .fa.fa-twitter {color: #55acee;}
+.social ul li a:hover .fa.fa-youtube {color: #d32027;}
+
+.social ul li a.instagram{
+    margin: 0px 15px -7px 15px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-image: url(img/instagram-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    transition: 0s;
+    -webkit-transition: 0s;
+}
+.social ul li a.instagram:hover{
+    background-position: 0 -45px;
+}
+/*.social ul li a:hover .fa.fa-instagram {background: url('img/instagram-hover.png') no-repeat 50% 100%; background-size: 95%;}*/
+
+
+footer .footer-top h3 {
+    font-family: oswald_stencilregular;
+    -webkit-font-family: oswald_stencilregular;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    letter-spacing: -.3px;
+}
+footer .footer-top .footer-nav ul li a {
+    text-transform: capitalize;
+    display: inline-block;
+    line-height: 25px;
+}
+footer .footer-top .footer-blog h3 {
+    margin-bottom: 22px;
+}
+footer .footer-top .footer-blog h4 {
+    text-transform: capitalize;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+footer .footer-top .footer-blog p {
+    font-size: 12px;
+}
+footer .footer-top .media-left {
+    padding-right: 15px;
+}
+footer .footer-top .media-body {
+    width: auto;
+}
+.media-body {
+  padding-left: 1px;
+}
+footer .footer-top .media-body h4.media-heading {
+    margin-top: 0;
+}
+
+footer .footer-top .footer-contact h4 {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+footer .footer-top .footer-contact h4 i {
+    font-size: 19px;
+	margin-right: 3px;
+}
+
+footer .footer-disclaimer {
+    padding:25px 0;
+    background-color: #f6f6f6;
+    color: #000;
+}
+footer .footer-disclaimer p {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: justify;
+}
+footer .footer-disclaimer strong {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer .footer-disclaimer a {
+    color: #d32027;
+    text-decoration: underline;
+}
+footer .footer-bottom {
+    padding:15px 0;
+    background-color: #021822;
+    color: #fff;
+    line-height: 22px;
+}
+
+footer .floatleft > img {
+    width: 128px;
+}
+footer .floatright > img {
+    width: 128px;
+}
+footer .floatleft.iso {
+  margin-right: 6px;
+}
+#live-chat {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 59px;
+    height: 59px;
+    cursor: pointer;
+    z-index: 100;
+    background: url('img/live-chat-icon.png') no-repeat;
+}
+#feedback-tab {
+    position: fixed;
+    top: 245px;
+    left: 0;
+    z-index: 100;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    width: 105px;
+    height: 45px;
+    background-color: #d32027;
+    margin-top: 0;
+    margin-left: -33px;
+    padding-top: 10px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+     -webkit-transform: rotate(-90deg); 
+     -moz-transform: rotate(-90deg); 
+     -ms-transform: rotate(-90deg); 
+     -o-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+}
+
+/*
+Terms & Conditions CSS
+*/
+
+.nav-custom-tabs {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.nav-custom-tabs li {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.nav-custom-tabs li a:focus {
+	text-decoration:none;
+}
+.nav-custom-tabs li.active a {
+  background: #d32027 none repeat scroll 0 0;
+}
+.nav-custom-tabs li a {
+  background: #000 none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav-custom-tabs li a:hover {
+  background: #d32027 none repeat scroll 0 0;
+  border-radius: 4px;
+  color: #fff;
+}
+.terms-conditons .conditions-policies-wrapper h3 {
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.terms-conditons .conditions-policies-wrapper p {
+    margin-bottom: 25px;
+}
+.terms-conditons .conditions-policies-wrapper strong {
+    font-weight: 500;
+}
+.terms-conditons .conditions-policies-wrapper a {
+  color: #d32027;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.terms-conditons .conditions-policies-wrapper a:hover {
+  color: #000;
+}

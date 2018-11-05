@@ -1,0 +1,298 @@
+/* Media Query with min-width */
+@media (min-width: 768px) {
+	select { background-position: 96% 50%; }
+	
+	.logo { text-align: center; }
+	.main-menu.text-right { text-align: center; }
+	.main-menu ul li a { padding: 5px 8px; }
+	.user-button.text-right { text-align: center; }
+
+	.section-title h2 { font-size: 50px; letter-spacing: -.5px; }
+	.section-title h3 { font-size: 23px; }
+
+	.search-process-area .search-process-control .nav-pills > li a span {font-size: 35px; width: 62px; height: 62px; padding-top: 15px;}
+	.search-process-area .tab-content #step4 .funnel-box { width: 40%; }
+
+	.protect-yourself-area p { padding: 0 12%; }
+	.single-service { padding: 20px 0; }
+	.single-service i { margin-bottom: 22px; }
+
+	.funnel-box input, .funnel-box button, .funnel-box select {height: 60px;}
+	.sells-funnel-area {margin-top: 230px;}
+	.sells-funnel-area .funnel-box input, .sells-funnel-area .funnel-box button {height: 50px;}
+	.inner-page-banner.sells-funnel-area {height: 350px;}
+	.inner-page-banner .sells-funnel {height: 170px;}
+	.funnel-text p br { display: none; }
+	.funnel-text h2 {font-size: 33px; line-height: 60px;}
+	.funnel-text h3 {font-size: 19px; line-height: 21px;}
+
+	.partner-search-area .section-title {margin-bottom: 50px;}
+	.partner-search-area .funnel-box input, .newsletter-area .funnel-box input {width: 305px;}
+	.partner-search-area .funnel-box button, .newsletter-area .funnel-box button {width: 210px; margin-left: 15px;}
+	.newsletter-area .section-title {margin-bottom: 50px;}
+	.newsletter-area .funnel-box button {width: 193px;}
+
+	.featured-video-aria .col-lg-6 { width: 50%; float: left; }
+
+	footer .footer-top h3 { font-size: 30px; }
+	footer .footer-top .footer-nav ul li a { line-height: 27px; }
+	.social ul li a .fa { font-size: 50px; }
+	.social ul li a { padding: 0 20px; }
+
+	.whats-next-area .single-service-wrapper {min-height: 430px;}
+
+	.red-box-wrapper { min-height: 208px; }
+
+	.report-details-wrapper .report-field p {font-size: 23px; text-transform: uppercase; font-weight: 700; margin-bottom: 17px;}
+	.search-report-results .results-field {text-align: left;}
+	.search-report-results .funnel-box button {width: 100%; height: 55px;}
+
+	.expdate-cvv label:first-child {width: auto;}
+	.expdate-cvv .card-expdate {max-width: 370px; width: 100%; display: inline-block;}
+	.expdate-cvv .card-cvv {max-width: 160px; width: 100%; display: inline-block;}
+
+	.plan-payment-details .cityname, .plan-payment-details .state-name, .plan-payment-details .zip-code, .plan-payment-details .country-name {max-width: 48%;}
+	.plan-payment-details .cityname, .plan-payment-details .zip-code {margin-right: 3%;}
+
+}
+
+@media (min-width: 992px) {
+	.inner-page-banner.sells-funnel-area {height: 430px;}
+	.inner-page-banner .sells-funnel {height: 170px;}
+}
+@media (min-width: 1170px) {
+	.single-featured-video .modal-dialog {width: 1170px;}
+
+	.tool-tip .tooltiptext { transform: scale(1.15); }
+	.single-service-wrapper { min-height: 325px; }
+
+	.search-process-area .search-process-control .nav-pills > li a { padding: 16px 70px; }
+
+	.inner-page-banner.sells-funnel-area {height: 530px;}
+	.inner-page-banner .sells-funnel {height: 190px;}
+}
+@media (min-width: 1200px) {
+	.main-menu.text-right { text-align: right; }
+	.main-menu ul li a { padding: 5px 10px; }
+
+	.sells-funnel {padding: 45px 0;}
+	.funnel-text p br { display: block; }
+	.funnel-text h2 {font-size: 50px; line-height: 80px;}
+	.funnel-text h3 {font-size: 23px; line-height: 43px;}
+	.funnel-box input, .funnel-box button { height: 65px; }
+	.sells-funnel-area {margin-top: 109px;}
+	.sells-funnel-area .funnel-box input, .sells-funnel-area .funnel-box button, .sells-funnel-area .funnel-box select {height: 65px;}
+	.funnel-box .select-label { text-align: right; }
+
+	p.step {margin: 8px 0 0 0;}
+
+	.single-service-wrapper { min-height: 430px; }
+	.plans-pricing-area { padding-left: 5px; }
+	.plans-pricing-wrapper .container { width: 100%; }
+
+	.single-pricing-wrapper { min-height: 1200px; }
+
+	.single-featured-video .modal video { width: 1170px; }
+
+	.search-process-area .tab-content #step1 .step-right, .search-process-area .tab-content #step4 .step-right {margin-top: 20px;}
+	.search-process-area .tab-content #step2 {min-height: 570px;}
+	.search-process-area .tab-content #step3 {min-height: 535px;}
+	.search-process-area .tab-content #step2 .step-left {padding-bottom: 165px;}
+	.search-process-area .tab-content #step3 .step-left {padding-bottom: 130px;}
+	.search-process-area .tab-content #step4 .funnel-box { width: auto; margin-bottom: 105px; }
+	.search-process-area .search-process-control .nav-pills > li a {padding: 16px 92px;}
+	.search-process-area .tab-content #step2 .step-right { width: 60%; text-align: center; }
+
+	.whats-next-area .single-service { padding: 10px 25px; }
+	.whats-next-area .single-service-wrapper { min-height: 680px; }
+
+	.search-report-results .funnel-box button {height: 65px;}
+
+	.red-box-wrapper { min-height: 184px; }
+
+	.e-books-area .e-books-cover { margin-bottom: 0; }
+	.e-books-area .e-books-content { margin-bottom: 0; }
+	.e-books-area .e-books-details { min-height: 315px; }
+
+	.login-left {padding-right: 30px;}
+	.login-right {padding-left: 30px;}
+
+	.payments-wrapper {padding-right: 11%;}
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+	.search-process-area .tab-content #step2 .step-right, .search-process-area .tab-content #step3 .step-right {width: 768px;}
+}
+@media (min-width: 1300px) {
+	.single-pricing-wrapper { min-height: 1160px; }
+}
+@media (min-width: 1400px) {
+	.single-pricing-wrapper { min-height: 1060px; }
+}
+@media (min-width: 1440px) {
+	.search-process-area .tab-content #step2, .search-process-area .tab-content #step3 {min-height: 605px;}
+}
+@media (min-width: 1600px) {
+	.single-pricing-wrapper { min-height: 1040px; }
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+	.single-service-wrapper { min-height: 325px; }
+
+	.single-pricing-wrapper { min-height: 925px; }
+	.inner-page-banner .sells-funnel h2 {margin-bottom: 20px;}
+
+	.plans-pricing-wrapper > .container > .row > div:nth-child(1) .single-pricing-wrapper { min-height: 450px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(2) .single-pricing-wrapper { min-height: 620px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(3) .single-pricing-wrapper { min-height: 770px; }
+
+	.search-process-area .search-process-control .nav-pills > li a {padding: 16px 70px;}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.red-box-wrapper { min-height: 232px; }
+	.single-service-wrapper { min-height: 345px; }
+
+	.single-pricing-wrapper { min-height: 945px; }
+
+	.plans-pricing-wrapper > .container > .row > div:nth-child(1) .single-pricing-wrapper { min-height: 450px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(2) .single-pricing-wrapper { min-height: 620px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(3) .single-pricing-wrapper { min-height: 770px; }
+
+	.search-process-area .search-process-control .nav-pills > li a {padding: 16px 42px;}
+	.search-process-area .tab-content #step2, .search-process-area .tab-content #step3, .search-process-area .tab-content #step4 { min-height: 860px; }
+	.search-process-area .tab-content #step2 .step-right { width: 80%; left: 15%; }
+	.search-process-area .tab-content #step3 .step-right { width: 85%; }
+
+	.whats-next-area .single-service-wrapper {min-height: 470px;}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.container { width:300px }
+	.ptb-50 { padding: 40px 0 25px; }
+	.main-menu {display: none;}
+	.top-menu-user-button {display:none}
+	.menu-responsive { display: block; }
+
+	.plans-pricing-wrapper > .container > .row > div:nth-child(1) .single-pricing-wrapper { min-height: 680px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(2) .single-pricing-wrapper { min-height: 680px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(3) .single-pricing-wrapper { min-height: 840px; }
+
+	.sells-funnel { }
+	.sells-funnel .container { width: 100%; }
+	.funnel-text p { line-height: 22px; }
+	.funnel-text p br { display: none; }
+	.funnel-text h2 { font-size: 29px; line-height: 55px; }
+	.funnel-text h3 { font-size: 17px; line-height: 25px; }
+	.funnel-box .select-label { text-align: left; }
+	.funnel-box label { font-size: 17px; margin-bottom: 10px; }
+	.funnel-box input, .funnel-box button, .funnel-box select { font-size: 15px; padding-left: 10px; width: 100%; }
+	.funnel-box button { width: 180px; }
+	.funnel-box p.step { font-size: 21px; line-height: 25px; }
+	.funnel-box p.step span { width: 35px; height: 35px; font-size: 25px; }
+
+	.sells-funnel-area .funnel-box input, .sells-funnel-area .funnel-box select, .sells-funnel-area .funnel-box button { height: 45px; }
+	.sells-funnel-area .funnel-box label {padding-top: 10px;}
+
+	.newsletter-area .funnel-box button {width: 135px;}
+
+	.single-circle.alignleft, .single-circle.alignright { margin: 5px auto 20px; float: none; }
+	.single-circle { height: 200px; width: 200px; }
+
+	.single-featured-video { padding: 0; }
+	.section-title { margin-bottom: 50px; }
+	.single-featured-video i { margin-top: 0; }
+
+	.search-process-area .container { width: 100% }
+	.search-process-area .section-title { margin-bottom: 10px; }
+	.search-process-area .search-process-control .nav-pills > li { margin-left: 0; margin-right: 0; }
+	.search-process-area .tab-content .step-left { padding-bottom: 35px; }
+	.search-process-area .tab-content .step-left h2 { font-size: 29px; }
+	.search-process-area .tab-content .step-left h3 { font-size: 23px; }
+
+	.search-process-area .tab-content #step2 .step-right { left: 0%; width: 100%; }
+	.search-process-area .tab-content #step3 .step-right { width: 100%; }
+	.search-process-area .tab-content #step4 .funnel-box button { width: 100%; }
+	.search-process-area .tab-content #step4 .funnel-box { margin-bottom: 0; }
+
+	.search-report-results .results-field {display: block; margin: 0;}
+	.search-report-results .results-field > div.col-sm-3 {width: 100%;}
+	.search-report-results .results-field > div.col-sm-3:first-child { padding: 5px 0 15px; }
+
+	.social-login-field button { width: 100%; }
+    .nav-custom-tabs {margin-bottom: 20px;}
+	.nav-custom-tabs li a {border-radius: 3px; color: #fff; font-size: 18px; padding: 5px 14px;}
+	.nav-custom-tabs li {margin-bottom: 15px;}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	select { background-position: 95% 50%; }
+	.container {width:450px}
+	.red-box-wrapper { min-height: 280px; }
+	.single-service-wrapper { min-height: 350px; }
+
+	.single-pricing-wrapper { min-height: 985px; }
+
+	.search-process-area .search-process-control .nav-pills > li a { padding: 10px; }
+	.search-process-area .search-process-control .nav-pills > li a span {font-size: 35px; width: 62px; height: 62px; padding-top: 15px;}
+
+	.plans-pricing-wrapper > .container > .row > div:nth-child(1) .single-pricing-wrapper { min-height: 560px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(2) .single-pricing-wrapper { min-height: 650px; }
+	.plans-pricing-wrapper > .container > .row > div:nth-child(3) .single-pricing-wrapper { min-height: 770px; }
+
+	.search-process-area .tab-content #step2, .search-process-area .tab-content #step3, .search-process-area .tab-content #step4 { min-height: 840px; }
+
+	.whats-next-area .single-service-wrapper {min-height: 610px;}
+
+	.search-report-results .funnel-box button {width: 100%; height: 55px;}
+}
+
+@media (max-width: 479px) {
+	.social ul li a {padding: 0 7px;}
+
+	form select {padding-right: 50px;}
+
+	.firstName-field, .lastName-field, .select-field .gender, .select-field .age-range, .select-field .marital-status { width: 100%; }
+
+	.sells-funnel-area .funnel-box input, .sells-funnel-area .funnel-box button, .sells-funnel-area .funnel-box select { height: 35px; }
+	.sells-funnel-area {height: 550px; margin-top: 70px;}
+	.sells-funnel {height: 68%;}
+	.funnel-box { margin-top: 10px; }
+	.funnel-text p { font-size: 14px; line-height: 17px; }
+	.funnel-text h2 { font-size: 23px; line-height: 45px; }
+	.funnel-text h3 { font-size: 16px; line-height: 17px; }
+	.funnel-box p.step {font-size: 19px; line-height: 24px;}
+	.funnel-box p.step span { width: 33px; height: 33px; font-size: 21px;}
+    .nav-custom-tabs {margin-bottom: 10px;}
+	.nav-custom-tabs li a {border-radius: 3px; color: #fff; font-size: 14px; padding: 5px 5px;}
+	.nav-custom-tabs li {margin-bottom: 15px;}
+	.single-featured-video i {
+		height: 100px;
+		width: 100px;
+		font-size: 40px;
+		padding-top: 22px;
+	}
+	.single-circle {
+		height: 130px;
+		width: 130px;
+		padding-top: 22px;
+	}
+	.single-circle.section-title h3 {
+		font-size: 16px;
+		line-height: 16px;
+
+	}
+	.single-circle.section-title h2 {
+		margin-bottom:0;
+
+	}
+	.single-circle.section-title {
+		margin-bottom: 22px;
+	}
+}
