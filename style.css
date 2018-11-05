@@ -413,6 +413,26 @@ header {
     line-height: 33px;
     color: #fff;
 }
+.blog-slider-active .owl-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blog-slider-active .owl-nav div {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #d32027;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    transition: .3s;
+}
+.blog-slider-active .owl-nav div:hover {
+    background: #898989;
+}
 /* Blog Slider Area ENd */
 
 
