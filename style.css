@@ -435,16 +435,24 @@ header {
 }
 /* Blog Slider Area ENd */
 /* Recent Post Start */
+.recent-post-area {
+    position: relative;
+    top: -205px;
+}
+.recent-post-content h3 {
+    width: 96%;
+}
 .recent-post-content h3 a {
     color: #282828;
     font-size: 23px;
-    line-height: 33px;
+    line-height: 23px;
 }
 
 .recent-post-content p {
     font-size: 16px;
     color: #282828;
     margin-top: 10px;
+    width: 98%;
 }
 
 .recent-post-content .recent-post-author {
@@ -452,7 +460,7 @@ header {
     color: #282828;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .recent-post-content .recent-post-cat span a {
@@ -463,8 +471,33 @@ header {
     border-radius: 5px;
     font-weight: 700;
     color: #fff;
-    margin-top: 24px;
+    margin-top: 13px;
     display: inline-block;
+}
+.recent-post-social-link {
+    float: left;
+    margin-top: 30px;
+}
+
+.recent-comment {
+    float: right;
+    margin-top: 30px;
+}
+
+.recent-post-social-link i {
+    font-size: 20px;
+    color: #898989;
+    margin-right: 10px;
+}
+
+.recent-comment span {
+    font-size: 20px;
+    color: #898989;
+    margin-right: 15px;
+}
+
+.recent-comment span i {
+    margin-right: 5px;
 }
 /* Recent Post End */
 
