@@ -238,8 +238,8 @@ header {
     display: inline-block;
 }
 .main-menu ul li a, .user-button ul li a {
-    font-family: oswald_stencilregular;
-    -webkit-font-family: oswald_stencilregular;
+    font-family: "OswaldStencil-Bold";
+    -webkit-font-family: "OswaldStencil-Bold";
     letter-spacing: 0;
     display: block;
     padding: 5px 10px;
