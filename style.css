@@ -38,10 +38,19 @@ html, body {
     color: #000;
     padding: 0.2em 0;
 }
+.margin-top-1{
+    margin-top: -53px;
+}
+.margin-top-2{
+    margin-top: -275px;
+}
+.margin-top-3 {
+    margin-top: -50px;
+}
 @font-face {
-    font-family: 'oswald_stencilregular';
-    src: url('fonts/oswald-stencil-webfont.woff2') format('woff2'),
-        url('fonts/oswald-stencil-webfont.woff') format('woff');
+    font-family: "oswald_stencilregular";
+    src: url('assets/fonts/oswald-stencil-webfont.woff2') format('woff2'),
+        url('assets/fonts/oswald-stencil-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -435,9 +444,21 @@ header {
 }
 /* Blog Slider Area ENd */
 /* Recent Post Start */
+.border-b {
+    border-bottom: 1px solid #eeeeee;
+}
+.pl-0{
+    padding-left: 0;
+}
+.recent-post {
+    margin-top: 50px;
+}
 .recent-post-area {
     position: relative;
-    top: -205px;
+    top: -255px;
+}
+.recent-post-image {
+    margin-bottom: 50px;
 }
 .recent-post-content h3 {
     width: 96%;
@@ -500,6 +521,92 @@ header {
     margin-right: 5px;
 }
 /* Recent Post End */
+
+/* Catagories */
+.pr-0{
+    padding-right: 0;
+}
+.categories-text {
+    margin-top: 50px;
+}
+
+.categories-text h4 {
+    text-align: center;
+    font-size: 23px;
+    background: #d32027;
+    padding: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+}
+
+.cat-item .name {
+    float: left;
+    margin-left: 25px;
+}
+
+.cat-item .cat-number {
+    float: right;
+    margin-right: 25px;
+}
+
+.cat-item {
+    font-size: 16px;
+    font-weight: 700;
+    color: #282828;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.single-cat {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+/* Catagories */
+
+/* Popular Post Start */
+.popular-title h4 {
+    text-align: center;
+    font-size: 23px;
+    background: #d32027;
+    padding: 15px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+}
+
+.popular-img img {
+    width: 100%;
+}
+.pupolar-post-content h4{
+    width: 95%;
+}
+.single-pupolar-post {
+    padding-left: 20px;
+    overflow: hidden;
+}
+.pupolar-post-content h4 a {
+    color: #282828;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 17px;
+}
+
+.pupolar-post-content span {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #282828;
+    line-height: 30px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.popular-img {
+    margin-top: 7px;
+}
+/* Popular Post End */
 
 
 
