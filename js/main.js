@@ -182,6 +182,14 @@ $(document).ready(function(){
 			600: {
 				items: 1,
 			},
+			768: {
+				items: 2,
+				margin: 30,
+			},
+			900: {
+				items: 2,
+				margin: 30,
+			},
 			1000: {
 				items: 3,
 			}

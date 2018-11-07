@@ -59,12 +59,6 @@
 @media (min-width: 992px) {
 	.inner-page-banner.sells-funnel-area {height: 430px;}
 	.inner-page-banner .sells-funnel {height: 170px;}
-	.recent-post-content {
-		margin-top: -20px;
-	}
-	.recent-post {
-		padding-bottom: 30px;
-	}
 	.mt-m{
 		margin-top: -280px;
 	}
@@ -175,6 +169,22 @@
 	.plans-pricing-wrapper > .container > .row > div:nth-child(3) .single-pricing-wrapper { min-height: 770px; }
 
 	.search-process-area .search-process-control .nav-pills > li a {padding: 16px 70px;}
+	.blog-page-banner .sells-funnel{
+		height: 225px;
+	}
+	.recent-post-image img {
+		width: 100%;
+		height: auto;
+	}
+	.recent-post-image {
+		margin-bottom: 25px;
+	}
+	.recent-post-social-link {
+		padding-bottom: 25px;
+	}
+	.pagination {
+		text-align: left;
+	}
 }
 
  
@@ -195,6 +205,41 @@
 	.search-process-area .tab-content #step3 .step-right { width: 85%; }
 
 	.whats-next-area .single-service-wrapper {min-height: 470px;}
+	.subscribe-form form input {
+		height: 50px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.blog-page-banner .sells-funnel {
+		height: 280px;
+	}
+	.blog-page-banner.sells-funnel-area {
+		height: 500px;
+	}
+	.blog-page-banner .subscribe-text h3 {
+		margin-bottom: 15px;
+	}
+	.subscribe-form form button {
+		padding: 15px 35px;
+		font-size: 15px;
+	}
+	.blog-page-banner .subscribe-text h2 {
+		margin-bottom: 10px;
+	}
+	.recent-post-image img {
+		width: 100%;
+		height: auto;
+	}
+	.recent-post-image {
+		margin-bottom: 25px;
+	}
+	.recent-post-social-link {
+		padding-bottom: 25px;
+	}
+
+	.pagination {
+		text-align: left;
+	}
 }
 
  
@@ -278,6 +323,43 @@
 	.whats-next-area .single-service-wrapper {min-height: 610px;}
 
 	.search-report-results .funnel-box button {width: 100%; height: 55px;}
+	.blog-page-banner.sells-funnel-area {
+		height: 580px;
+	}
+	.inner-page-banner .sells-funnel {
+		height: 280px;
+	}
+	.blog-page-banner .subscribe-text h2 {
+		margin-bottom: 10px;
+	}
+	.blog-page-banner .subscribe-text h2 {
+		margin-bottom: 0;
+	}
+	.blog-page-banner .subscribe-text h3 {
+		margin-bottom: 10px;
+	}
+	.subscribe-form form input {
+		height: 50px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.subscribe-form form button {
+		padding: 15px 35px;
+		font-size: 15px;
+	}
+	.recent-post-image img {
+		width: 100%;
+		height: auto;
+	}
+	.recent-post-image {
+		margin-bottom: 25px;
+	}
+	.recent-post-social-link {
+		margin-bottom: 30px;
+	}
+	.pagination {
+		text-align: left;
+	}
 }
 
 @media (max-width: 479px) {
@@ -321,5 +403,59 @@
 	}
 	.single-circle.section-title {
 		margin-bottom: 22px;
+	}
+	.blog-page-banner.sells-funnel-area {
+		height: 410px;
+	}
+	.inner-page-banner .sells-funnel {
+		height: 270px;
+	}
+	.blog-page-banner .subscribe-text h2 {
+		margin-bottom: 5px;
+	}
+	.blog-page-banner .subscribe-text h3 {
+		margin-bottom: 15px;
+	}
+	.subscribe-form form input {
+		padding: 15px;
+		height: 40px;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.subscribe-form form button {
+		padding: 15px 35px;
+	}
+	.blog-slider-text h3 a {
+		line-height: 30px;
+		font-size: 19px;
+	}
+	.blog-slider-text .blog-slider-author {
+		margin-top: 0;
+	}
+	.blog-slider-text .blog-slider-cat span a {
+		margin-top: 15px;
+	}
+	.recent-post-image img {
+		width: 100%;
+		height: auto;
+	}
+	.recent-post-image {
+		margin-bottom: 25px;
+	}
+	.pagination {
+		text-align: left;
+	}
+	.recent-post-social-link {
+		margin-bottom: 30px;
+	}
+	.recent-comment span {
+		margin-right: 5px;
+	}
+	.recent-post-content h3 a {
+		font-size: 17px;
+		line-height: 17px;
+	}
+	.pagination {
+		margin-top: 35px;
 	}
 }
