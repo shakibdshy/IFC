@@ -59,6 +59,24 @@
 @media (min-width: 992px) {
 	.inner-page-banner.sells-funnel-area {height: 430px;}
 	.inner-page-banner .sells-funnel {height: 170px;}
+	.recent-post-content {
+		margin-top: -20px;
+	}
+	.recent-post {
+		padding-bottom: 30px;
+	}
+	.mt-m{
+		margin-top: -280px;
+	}
+	.margin-top-2 {
+		margin-top: -20px;
+	}
+	.mt-0{
+		margin-top: 0;
+	}
+	.margin-top-3 {
+		margin-top: -335px;
+	}
 }
 @media (min-width: 1170px) {
 	.single-featured-video .modal-dialog {width: 1170px;}
@@ -68,8 +86,14 @@
 
 	.search-process-area .search-process-control .nav-pills > li a { padding: 16px 70px; }
 
-	.inner-page-banner.sells-funnel-area {height: 530px;}
+	.inner-page-banner.sells-funnel-area {height: 619px;}
 	.inner-page-banner .sells-funnel {height: 190px;}
+	.blog-page-banner .sells-funnel {height: 270px;}
+	.margin-top-1 {
+		margin-top: -48px;
+	}
+	
+	
 }
 @media (min-width: 1200px) {
 	.main-menu.text-right { text-align: right; }
@@ -118,6 +142,9 @@
 	.login-right {padding-left: 30px;}
 
 	.payments-wrapper {padding-right: 11%;}
+	.blog-page-banner .sells-funnel {
+		height: 300px;
+	}
 }
 @media (min-width: 1200px) and (max-width: 1439px) {
 	.search-process-area .tab-content #step2 .step-right, .search-process-area .tab-content #step3 .step-right {width: 768px;}
