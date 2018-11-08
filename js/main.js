@@ -195,5 +195,34 @@ $(document).ready(function(){
 			}
 		}
 	});
+	//Blog On Slide
+	$('.related-post-active').owlCarousel({
+		autoplay: false,
+		loop: true,
+		margin: 30,
+		dots: false,
+		nav: true,
+		navText: ['<i class="fa fa-arrow-left" aria-hidden="true"></i>', '<i class="fa fa-arrow-right" aria-hidden="true"></i>'],
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1,
+			},
+			768: {
+				items: 2,
+				margin: 30,
+			},
+			900: {
+				items: 2,
+				margin: 30,
+			},
+			1000: {
+				items: 2,
+			}
+		}
+	});
 
 });
